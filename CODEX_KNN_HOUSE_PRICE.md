@@ -1,5 +1,12 @@
 # CODEX.md
 
+> Update 2026-09-14: Project da chuyen sang huong moi theo yeu cau nguoi dung:
+> train KNN tren dataset that, luu `StandardScaler + KNeighborsRegressor` thanh
+> `backend/models/knn_house_model.pkl`, sau do FastAPI backend load model local
+> va Docker build/run de may khac co the chay lai. Huong Colab Model Server +
+> Ngrok ben duoi duoc giu nhu tai lieu y tuong cu, khong con la kien truc chay
+> chinh cua backend hien tai.
+
 # KNN House Price Prediction
 
 ## 1. Vai trò của file này
